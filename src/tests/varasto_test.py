@@ -69,7 +69,7 @@ class TestVarasto(unittest.TestCase):
 
         kaikki_mita_voidaan = self.varasto.ota_varastosta(5)
 
-        self.assertEqual((kaikki_mita_voidaan, self.varasto.saldo), (0.0, 0.0))
+        self.assertEqual((kaikki_mita_voidaan, self.varasto.saldo), (1.0, 0.0))
 
     def test_str(self):
 
